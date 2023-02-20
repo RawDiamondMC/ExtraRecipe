@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:bone_meal"
+    },
+    "$": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "*": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "$*$",
+    "#$#"
+  ],
+  "result": {
+    "item": "minecraft:cocoa_beans",
+    "count": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:grass_blocks"
+    },
+    "$": {
+      "tag": "c:stone"
+    },
+    "*": {
+      "item": "extra_recipe:record_blank"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "$*$",
+    "#$#"
+  ],
+  "result": {
+    "item": "minecraft:music_disc_chirp",
+    "count": 1
+  }
+}
