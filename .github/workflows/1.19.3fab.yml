@@ -19,8 +19,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
 # WHERE IS THE 1.19.3Fabric FOLDER!
-      - name: Go to 1.19.3Fabric folder
-        uses: ./1.19.3Fabric/
+#      - name: Go to 1.19.3Fabric folder
+#        uses: ./1.19.3Fabric/
       - name: checkout repository
         uses: actions/checkout@v3
       - name: validate gradle wrapper
@@ -34,7 +34,7 @@ jobs:
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
       - name: build
-        run: ./gradlew build
+        run: ./1.19.3Fabric/gradlew build
       - name: capture build artifacts
         if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts built from latest java on one OS
         uses: actions/upload-artifact@v3
