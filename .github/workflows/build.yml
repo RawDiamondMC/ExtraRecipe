@@ -1,14 +1,9 @@
 # Change from fabric-example-mod
 # SHIT COMMITS
+# EVEN THE COMMIT ISN'T TO 1.19.3Fabric,IT WILL STILL RUN
 
 name: build 1.19.3 Fabric
-on:
-  push:
-    paths:
-      - '1.19.3Fabric'
-  pull_request:
-    paths:
-      - '1.19.3Fabric'
+on: [pull_request, push]
 
 jobs:
   build:
