@@ -3,6 +3,7 @@
 # EVEN THE COMMIT ISN'T TO 1.19.3Fabric,IT WILL STILL RUN
 
 name: build 1.19.3 Fabric
+run-name: shit coder ${{ github.actor }} is learning GitHub Actions
 on: [pull_request, push]
 
 jobs:
@@ -17,8 +18,9 @@ jobs:
         os: [ubuntu-22.04, windows-2022]
     runs-on: ${{ matrix.os }}
     steps:
+# WHERE IS THE 1.19.3Fabric FOLDER!
       - name: Go to 1.19.3Fabric folder
-        run: cd ../1.19.3Fabric # When you want to build the "1.12.2Forge",cd 1.12.2Forge
+        uses: ./1.19.3Fabric/
       - name: checkout repository
         uses: actions/checkout@v3
       - name: validate gradle wrapper
