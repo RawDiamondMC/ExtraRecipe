@@ -32,7 +32,7 @@ jobs:
           distribution: 'microsoft'
       - name: make gradle wrapper executable
         if: ${{ runner.os != 'Windows' }}
-        run: chmod +x ./gradlew
+        run: chmod +x ./1.19.3Fabric/gradlew
       - name: build
         run: ./1.19.3Fabric/gradlew build
       - name: capture build artifacts
