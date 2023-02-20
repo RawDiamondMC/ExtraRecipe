@@ -18,7 +18,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - name: Go to 1.19.3Fabric folder
-        run: cd 1.19.3Fabric # When you want to build the "1.12.2Forge",cd 1.12.2Forge
+        run: cd ../1.19.3Fabric # When you want to build the "1.12.2Forge",cd 1.12.2Forge
       - name: checkout repository
         uses: actions/checkout@v3
       - name: validate gradle wrapper
