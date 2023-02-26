@@ -1,9 +1,9 @@
-# Change from fabric-example-mod
-# SHIT COMMITS
-# EVEN THE COMMIT ISN'T TO 1.19.3Fabric,IT WILL STILL RUN
+# Automatically build the project and run any configured tests for every push
+# and submitted pull request. This can help catch issues that only occur on
+# certain platforms or Java versions, and provides a first line of defence
+# against bad commits.
 
-name: build 1.19.3 Fabric
-run-name: shit coder ${{ github.actor }} is learning GitHub Actions
+name: build
 on: [pull_request, push]
 
 jobs:
@@ -18,17 +18,8 @@ jobs:
         os: [ubuntu-22.04, windows-2022]
     runs-on: ${{ matrix.os }}
     steps:
-# WHERE IS THE 1.19.3Fabric FOLDER!
-#      - name: Go to 1.19.3Fabric folder
-#        uses: ./1.19.3Fabric/
       - name: checkout repository
         uses: actions/checkout@v3
-      - name: test
-        run: tree
-      - name: Go to 1.19.3Fabric folder
-        run: cd 1.19.3Fabric/
-      - name: test2
-        run: tree
       - name: validate gradle wrapper
         uses: gradle/wrapper-validation-action@v1
       - name: setup jdk ${{ matrix.java }}
@@ -38,12 +29,12 @@ jobs:
           distribution: 'microsoft'
       - name: make gradle wrapper executable
         if: ${{ runner.os != 'Windows' }}
-        run: chmod +x gradlew
+        run: chmod +x ./gradlew
       - name: build
         run: ./gradlew build
       - name: capture build artifacts
         if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts built from latest java on one OS
         uses: actions/upload-artifact@v3
         with:
-          name: 1.19.3Fabric-Artifacts
+          name: ExtraRecipeFabric-snapshot
           path: build/libs/
