@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "twilightforest:cinder_furnace",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      { "item": "extra_recipe:wip_matter" }
+    ],
+    [
+      { "item": "minecraft:furnace" }
+    ]
+  ],
+  "type": "forge:ore_shapeless"
+}

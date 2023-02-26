@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "111",
+    "131",
+    "121"
+  ],
+
+  "key": {
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "2": {
+      "item": "cyberware:component",
+      "data": 4
+    },
+    "3":
+    {
+      "type": "forge:ore_dict",
+      "ore": "forge:chests/wooden"
+    }
+  },
+
+  "result":
+  {
+    "item": "cyberware:blueprint_archive",
+    "count": 1
+  }
+}

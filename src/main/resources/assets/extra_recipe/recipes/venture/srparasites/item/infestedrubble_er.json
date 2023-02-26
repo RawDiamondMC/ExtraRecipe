@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "srparasites:infestedrubble"
+        },
+        {
+            "item": "minecraft:stone"
+        }
+    ],
+    "result": {
+        "item": "srparasites:infestedrubble",
+        "count": 2
+    }
+}

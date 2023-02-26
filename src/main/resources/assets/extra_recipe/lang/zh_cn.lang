@@ -1,0 +1,4 @@
+item.record_blank.name=空白唱片
+
+item.wip_matter.name=WIP物质
+item.wip_matter.desc=虽然叫做WIP物质，但其实只是一个合成未完成物品的材料。

@@ -1,0 +1,13 @@
+{
+  "result": {
+    "item": "forestry:sapling",
+    "count": 1,
+    "data": 0
+  },
+  "ingredients": [
+    [
+      { "item": "minecraft:sapling", "data": 0 }
+    ]
+  ],
+  "type": "forge:ore_shapeless"
+}

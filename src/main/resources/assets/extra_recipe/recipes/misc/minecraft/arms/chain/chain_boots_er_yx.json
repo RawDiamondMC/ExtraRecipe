@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "1 1",
+    "1 1"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "nuggetIron"
+    }
+  },
+
+  "result":
+  {
+    "item": "minecraft:chainmail_boots",
+    "count": 1
+  }
+}

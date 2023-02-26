@@ -42,5 +42,5 @@ replay_*.log
 # notepad--
 *.swp
 
-# WIP
-#.github
+# Files from Forge MDK
+forge*changelog.txt

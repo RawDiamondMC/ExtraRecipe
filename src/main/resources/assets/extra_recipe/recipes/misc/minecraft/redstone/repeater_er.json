@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "1 1",
+        "212",
+        "333"
+    ],
+
+    "key":
+    {
+        "1":
+        {
+            "type": "forge:ore_dict",
+            "ore": "itemRedstone"
+        },
+        "2":
+        {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        },
+        "3":
+        {
+            "item": "minecraft:stone"
+        }
+    },
+
+    "result":
+    {
+        "item": "minecraft:repeater",
+        "count": 1
+    }
+}

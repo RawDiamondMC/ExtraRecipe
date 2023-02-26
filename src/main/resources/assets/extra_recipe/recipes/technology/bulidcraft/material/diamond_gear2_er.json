@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "212",
+    "131",
+    "121"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemDiamond"
+    },
+    "3":
+    {
+      "item": "buildcraftcore:gear_iron"
+    }
+  },
+
+  "result":
+  {
+    "item": "buildcraftcore:gear_diamond",
+    "count": 1
+  }
+}

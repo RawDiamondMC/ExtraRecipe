@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "thebetweenlands:mud"
+        },
+        {
+            "item": "minecraft:brick"
+        }
+    ],
+    "result": {
+        "item": "thebetweenlands:items_misc",
+        "data": 10,
+        "count": 1
+    }
+}

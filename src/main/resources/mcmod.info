@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "extra_recipe",
+    "name": "Extra Recipe",
+    "description": "The ExtraRecipe for Forge1.12.2!",
+    "version": "1.6.2",
+    "mcversion": "1.12.2",
+    "url": "https://www.mcmod.cn/class/7424.html",
+    "updateUrl": "",
+    "authorList": [
+      "YTXSY","FeO_Fe2O3"
+    ],
+    "credits": "The Forge and FML guys, for making this example",
+    "logoFile": "logo.png",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

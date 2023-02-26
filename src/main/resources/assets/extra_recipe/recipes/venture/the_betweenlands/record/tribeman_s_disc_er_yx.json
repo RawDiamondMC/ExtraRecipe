@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " 2 ",
+    "212",
+    " 2 "
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "extra_recipe:record_blank"
+    },
+    "2":
+    {
+      "item": "thebetweenlands:sludge_ball"
+    }
+  },
+
+  "result":
+  {
+    "item": "thebetweenlands:between_you_and_me",
+    "count": 1
+  }
+}

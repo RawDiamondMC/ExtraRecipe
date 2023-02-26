@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "121",
+    "232",
+    "111"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "plateBronze"
+    },
+    "2":
+    {
+      "item": "ic2:cable",
+      "data": 0
+    },
+    "3": {
+      "item": "ic2:te",
+      "data": 72
+    }
+  },
+
+  "result":
+  {
+    "item": "ic2:te",
+    "count": 1,
+    "data": 73
+  }
+}

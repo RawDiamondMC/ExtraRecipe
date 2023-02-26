@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "11",
+    "11"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "minecraft:chorus_fruit"
+    }
+  },
+
+  "result":
+  {
+    "item": "minecraft:chorus_plant",
+    "count": 1
+  }
+}

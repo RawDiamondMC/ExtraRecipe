@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "111",
+    "222",
+    "333"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "plateDenseIron"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "plateDenseBronze"
+    },
+    "3":
+    {
+      "type": "forge:ore_dict",
+      "ore": "plateDenseTin"
+    }
+  },
+
+  "result":
+  {
+    "item": "ic2:ingot",
+    "count": 18,
+    "data": 64
+  }
+}

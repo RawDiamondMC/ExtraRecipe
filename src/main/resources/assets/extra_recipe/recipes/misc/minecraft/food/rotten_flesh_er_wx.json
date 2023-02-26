@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "minecraft:rotten_flesh",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            { "type": "forge:ore_dict", "ore": "listAllmeatraw" }
+        ],
+        [
+            { "type": "forge:ore_dict", "ore": "listAllsugar" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

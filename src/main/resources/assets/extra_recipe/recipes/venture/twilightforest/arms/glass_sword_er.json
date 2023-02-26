@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "2",
+    "2",
+    "1"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "minecraft:golden_sword"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "paneGlassColorless"
+    }
+  },
+
+  "result":
+  {
+    "item": "twilightforest:glass_sword",
+    "count": 1
+  }
+}

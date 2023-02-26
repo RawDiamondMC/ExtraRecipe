@@ -1,0 +1,19 @@
+{
+    "result": {
+        "item": "projecte:fuel_block",
+        "count": 4,
+        "data": 1
+    },
+    "ingredients": [
+        [
+            { "item": "projecte:item.pe_philosophers_stone" }
+        ],
+        [
+            {
+                "item": "projecte:fuel_block",
+                "data": 2
+            }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

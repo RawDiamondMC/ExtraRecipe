@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " 5 ",
+    "412",
+    " 3 "
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "extra_recipe:record_blank"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotOctine"
+    },
+    "3":
+    {
+      "item": "thebetweenlands:items_misc",
+      "data": 18
+    },
+    "4":
+    {
+      "type": "forge:ore_dict",
+      "ore": "gemValonite"
+    },
+    "5":
+    {
+      "item": "thebetweenlands:items_misc",
+      "data": 23
+    }
+  },
+
+  "result":
+  {
+    "item": "thebetweenlands:wandering_wisps",
+    "count": 1
+  }
+}

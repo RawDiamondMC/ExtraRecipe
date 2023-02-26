@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#T#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ink_sac"
+        },
+        "T": {
+            "item": "thebetweenlands:sludge_ball"
+        }
+    },
+    "result": {
+        "item": "thebetweenlands:items_misc",
+        "data": 26,
+        "count": 1
+    }
+}

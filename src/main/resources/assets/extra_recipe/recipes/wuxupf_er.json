@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "mod_id:items_id",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            { "item": "mod_id:items_id" }
+        ],
+        [
+            { "type": "forge:ore_dict", "ore": "OreDictID" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "121",
+    "232",
+    "121"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "cobblestone"
+    },
+    "3":
+    {
+      "item": "buildcraftcore:gear_wood"
+    }
+  },
+
+  "result":
+  {
+    "item": "buildcraftcore:gear_iron",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "result": {
+        "item": "projectex:magnum_star_vier",
+        "count": 4
+    },
+    "ingredients": [
+        [
+            { "item": "projectex:magnum_star_sphere" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "222",
+    "212",
+    "222"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "dirt"
+    },
+    "2":
+    {
+      "item": "minecraft:bone_block"
+    }
+  },
+
+  "result":
+  {
+    "item": "twilightforest:uberous_soil",
+    "count": 1
+  }
+}

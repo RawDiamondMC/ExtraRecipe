@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "222",
+    "212",
+    "222"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "mod_id:items_id"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "OreDictID"
+    }
+  },
+
+  "result":
+  {
+    "item": "mod_id:items_id",
+    "count": 1
+  }
+}

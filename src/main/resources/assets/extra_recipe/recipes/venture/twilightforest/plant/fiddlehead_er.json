@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+  
+    "pattern":
+    [
+      "   ",
+      "12 ",
+      "  "
+    ],
+  
+    "key":
+    {
+      "1":
+      {
+        "item": "minecraft:tallgrass",
+        "data":2
+      },
+      "2":
+      {
+        "item": "twilightforest:transformation_powder"
+      }
+    },
+  
+    "result":
+    {
+      "item": "twilightforest:twilight_plant",
+      "count": 1,
+      "data":3
+    }
+  }

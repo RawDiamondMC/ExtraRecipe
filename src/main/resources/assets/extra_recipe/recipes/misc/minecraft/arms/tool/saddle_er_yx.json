@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "111",
+    "2 2"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "leather"
+    },
+    "2":
+    {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+
+  "result":
+  {
+    "item": "minecraft:saddle",
+    "count": 1
+  }
+}

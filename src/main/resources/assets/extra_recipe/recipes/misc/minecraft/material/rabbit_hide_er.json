@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "minecraft:rabbit_hide",
+        "count": 4
+    },
+    "ingredients": [
+        [
+            {
+                "type": "forge:ore_dict",
+                "ore": "leather"
+            }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

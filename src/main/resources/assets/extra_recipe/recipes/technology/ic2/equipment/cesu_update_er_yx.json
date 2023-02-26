@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "121",
+    "232",
+    "121"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "ic2:cable",
+      "data": 2
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "energyCrystal"
+    },
+    "3": {
+      "item": "ic2:te",
+      "data": 73
+    }
+  },
+
+  "result":
+  {
+    "item": "ic2:te",
+    "count": 1,
+    "data": 74
+  }
+}

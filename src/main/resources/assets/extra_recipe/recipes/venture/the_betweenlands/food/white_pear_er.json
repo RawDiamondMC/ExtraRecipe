@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#A#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:light_gray_dye"
+        },
+        "A": {
+            "item": "minecraft:apple"
+        }
+    },
+    "result": {
+        "item": "thebetweenlands:middle_fruit",
+        "count": 1
+    }
+}

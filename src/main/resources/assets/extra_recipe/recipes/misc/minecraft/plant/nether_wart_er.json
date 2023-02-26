@@ -1,0 +1,14 @@
+{
+  "result": {
+    "item": "minecraft:nether_wart",
+    "count": 9
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:nether_wart_block"
+      }
+    ]
+  ],
+  "type": "forge:ore_shapeless"
+}

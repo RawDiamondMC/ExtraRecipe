@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "121",
+    "313",
+    " 1 "
+  ],
+
+  "key": {
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "netherStar"
+    },
+    "3": {
+      "type": "forge:ore_dict",
+      "ore": "gemEmerald"
+    }
+  },
+
+  "result":
+  {
+    "item": "minecraft:totem_of_undying",
+    "count": 1
+  }
+}

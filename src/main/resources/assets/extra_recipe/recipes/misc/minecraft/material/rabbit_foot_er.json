@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "1 1",
+        "111"
+    ],
+
+    "key":
+   {
+          "1":
+          {
+            "item": "minecraft:rabbit_hide"
+          }
+   },
+
+    "result":
+    {
+        "item": "minecraft:rabbit_foot",
+        "count": 1
+    }
+}

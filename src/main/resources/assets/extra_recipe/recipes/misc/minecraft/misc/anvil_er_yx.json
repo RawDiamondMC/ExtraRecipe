@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "222",
+    "212",
+    "222"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "minecraft:anvil",
+      "data": 1
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    }
+  },
+
+  "result":
+  {
+    "item": "minecraft:anvil",
+    "count": 1,
+    "data": 0
+  }
+}

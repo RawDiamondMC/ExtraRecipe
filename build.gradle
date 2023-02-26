@@ -1,0 +1,134 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+    }
+}
+        
+apply plugin: 'net.minecraftforge.gradle'
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+apply plugin: 'eclipse'
+apply plugin: 'maven-publish'
+
+version = '1.5.1'
+group = 'com.yourname.modid' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'ExtraRecipe-1.12.2'
+
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+
+minecraft {
+    // The mappings can be changed at any time, and must be in the following format.
+    // snapshot_YYYYMMDD   Snapshot are built nightly.
+    // stable_#            Stables are built at the discretion of the MCP team.
+    // Use non-default mappings at your own risk. they may not always work.
+    // Simply re-run your setup task after changing the mappings to update your workspace.
+    //mappings channel: 'snapshot', version: '20171003-1.12'
+    mappings channel: 'snapshot', version: '20171003-1.12'
+    // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
+    
+    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    // Default run configurations.
+    // These can be tweaked, removed, or duplicated as needed.
+    runs {
+        client {
+            workingDirectory project.file('run')
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+        }
+
+        server {
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+        }
+    }
+}
+
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
+    //Technology
+    implementation fg.deobf("curse.maven:roboticparts-283377:3366534")
+    implementation fg.deobf("curse.maven:advanced-solar-panels-252714:2652182")
+    implementation fg.deobf("curse.maven:buildcraft-61811:3204475")
+    implementation fg.deobf("curse.maven:industrial-craft-242638:2746892")
+    implementation fg.deobf("curse.maven:ender-io-64578:3328811")
+    implementation fg.deobf("curse.maven:railcraft-51195:2687757")
+
+    //Utility
+    implementation fg.deobf("curse.maven:iron-chests-228756:2747935")
+    implementation fg.deobf("curse.maven:projectex-311378:3014173")
+    implementation fg.deobf("curse.maven:tinkers-construct-74072:2902483")
+    implementation fg.deobf("curse.maven:tinkers-things-355279:3032287")
+
+    //Venture
+    implementation fg.deobf("curse.maven:the-twilight-forest-227639:3051450")
+    implementation fg.deobf("curse.maven:angry-pixel-the-betweenlands-mod-243363:3540284")
+    implementation fg.deobf("curse.maven:genshin-12-575831:3748950")
+
+    //Farming
+    implementation fg.deobf("curse.maven:forestry-59751:2684780")
+
+    //Magic
+    implementation fg.deobf("curse.maven:projecte-226410:2702991")
+    implementation fg.deobf("curse.maven:emc-baubles-399700:3021747")
+
+    //Libs
+    implementation fg.deobf("curse.maven:endercore-231868:2972849")
+    implementation fg.deobf("curse.maven:baubles-227083:2518667")
+    implementation fg.deobf("curse.maven:mantle-74924:2713386")
+    implementation fg.deobf("curse.maven:shadowfacts-forgelin-248453:2785465")
+
+}
+
+// Example for how to get properties into the manifest for reading by the runtime..
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "examplemod",
+            "Specification-Vendor": "examplemodsareus",
+            "Specification-Version": "1", // We are version 1 of ourselves
+            "Implementation-Title": project.name,
+            "Implementation-Version": "${version}",
+            "Implementation-Vendor" :"examplemodsareus",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+    }
+}
+
+// Example configuration to allow publishing using the maven-publish task
+// This is the preferred method to reobfuscate your jar file
+jar.finalizedBy('reobfJar') 
+// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing
+//publish.dependsOn('reobfJar')
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url = "file:///${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+repositories {
+
+    maven {
+        url = "https://www.cursemaven.com"
+    }
+    mavenLocal()
+}

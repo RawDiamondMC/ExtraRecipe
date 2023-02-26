@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+  
+    "pattern":
+    [
+      "11 ",
+      "11 ",
+      "   "
+    ],
+  
+    "key":
+    {
+      "1":
+      {
+        "item": "minecraft:waterlily"
+      }
+    },
+  
+    "result":
+    {
+      "item": "twilightforest:huge_lilypad",
+      "count": 1
+    }
+  }

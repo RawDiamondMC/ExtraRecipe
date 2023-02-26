@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " 11",
+    "221",
+    " 11"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+
+  "result":
+  {
+    "item": "ic2:forge_hammer",
+    "count": 1
+  }
+}

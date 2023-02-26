@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "111",
+    "121",
+    "111"
+  ],
+
+  "key": {
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "2": {
+      "item": "cyberware:component",
+      "data": 1
+    }
+  },
+
+  "result":
+  {
+    "item": "cyberware:surgery",
+    "count": 1
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "121",
+        "111"
+    ],
+
+    "key":
+   {
+          "1":
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotIron"
+          },
+         "2":
+          {
+            "item": "railcraft:chest_metals"
+          }
+   },
+
+    "result":
+    {
+        "item": "railcraft:cart_chest_metals",
+        "count": 1
+    }
+}

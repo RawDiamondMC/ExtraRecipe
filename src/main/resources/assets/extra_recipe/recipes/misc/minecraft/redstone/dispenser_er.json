@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        " 12",
+        "132",
+        " 12"
+    ],
+
+    "key":
+    {
+        "1":
+        {
+            "type": "forge:ore_dict",
+            "ore": "stickWood"
+        },
+        "2":
+        {
+            "type": "forge:ore_dict",
+            "ore": "string"
+        },
+        "3":
+        {
+            "item": "minecraft:dropper"
+        }
+    },
+
+    "result":
+    {
+        "item": "minecraft:dispenser",
+        "count": 1
+    }
+}

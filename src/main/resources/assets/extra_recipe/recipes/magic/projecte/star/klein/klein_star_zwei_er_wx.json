@@ -1,0 +1,16 @@
+{
+    "result": {
+        "item": "projecte:item.pe_klein_star",
+        "count": 4,
+        "data": 1
+    },
+    "ingredients": [
+        [
+            {
+                "item": "projecte:item.pe_klein_star",
+                "data": 2
+            }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

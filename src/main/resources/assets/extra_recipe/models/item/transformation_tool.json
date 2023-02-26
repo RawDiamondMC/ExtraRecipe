@@ -1,0 +1,5 @@
+{    "parent": "item/handheld",
+  "textures": {
+    "layer0":"extra_recipe:items/transformation_tool"
+  }
+}

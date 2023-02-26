@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " 2 ",
+    "213",
+    " 3 "
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "extra_recipe:record_blank"
+    },
+    "2":
+    {
+      "item": "thebetweenlands:dead_moss"
+    },
+    "3":
+    {
+      "item": "thebetweenlands:moss"
+    }
+  },
+
+  "result":
+  {
+    "item": "thebetweenlands:beneath_a_green_sky",
+    "count": 1
+  }
+}

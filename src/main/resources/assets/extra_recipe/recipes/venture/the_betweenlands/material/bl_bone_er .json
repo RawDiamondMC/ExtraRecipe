@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#B#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:slime_ball"
+        },
+        "B": {
+            "item": "minecraft:bone"
+        }
+    },
+    "result": {
+        "item": "thebetweenlands:items_misc",
+        "data": 10,
+        "count": 1
+    }
+}

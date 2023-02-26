@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "2  ",
+    "12 ",
+    "1 2"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "string"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+
+  "result":
+  {
+    "item": "mod_id:items_id",
+    "count": 1
+  }
+}

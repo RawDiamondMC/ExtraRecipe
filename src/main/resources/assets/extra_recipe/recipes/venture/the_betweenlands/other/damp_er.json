@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "thebetweenlands:damp_torch"
+        }
+    ],
+    "result": {
+        "item": "thebetweenlands:items_misc",
+        "data": 20,
+        "count": 1
+    }
+}

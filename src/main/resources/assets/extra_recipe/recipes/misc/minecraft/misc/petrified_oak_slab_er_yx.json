@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "121"
+    ],
+
+    "key":
+    {
+        "1":
+        {
+            "item": "minecraft:stone_slab"
+        },
+        "2":
+        {
+            "item": "minecraft:wooden_slab"
+        }
+    },
+
+    "result":
+    {
+        "item": "minecraft:petrified_oak_slab",
+        "count": 3
+    }
+}

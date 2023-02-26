@@ -1,0 +1,12 @@
+{
+    "result": {
+        "item": "ic2:wrench",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            { "item": "ic2:wrench_new" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

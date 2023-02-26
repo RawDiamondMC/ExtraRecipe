@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#C#"
+    ],
+    "key": {
+        "#": {
+            "item": "srparasites:assimilated_flesh"
+        },
+        "C": {
+            "item": "minecraft:cobweb"
+        }
+    },
+    "result": {
+        "item": "srparasites:parasitebush",
+        "count": 2
+    }
+}

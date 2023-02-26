@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "minecraft:chest",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            {
+                "item": "ironchest:iron_chest",
+                "data": 7
+            }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

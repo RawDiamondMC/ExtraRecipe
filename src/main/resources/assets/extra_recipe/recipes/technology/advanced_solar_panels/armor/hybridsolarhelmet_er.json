@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "advanced_solar_panels:hybridsolarhelmet",
+        "count": 1
+    },
+    "ingredients": [
+        [
+             { "item":"advanced_solar_panels:advancedsolarhelmet" }
+        ],
+        [
+            { "item": "advanced_solar_panels:machines", "data": 3 }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

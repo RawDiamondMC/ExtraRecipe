@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " 2 ",
+    "212",
+    " 2 "
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "extra_recipe:record_blank"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "nuggetGold"
+    }
+  },
+
+  "result":
+  {
+    "item": "minecraft:record_13",
+    "count": 1
+  }
+}

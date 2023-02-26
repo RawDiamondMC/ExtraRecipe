@@ -1,0 +1,63 @@
+//        //ProjectE Matter
+//        OreDictionary.registerOre("DarkMatter", new ItemStack(ObjHandler.matter, 1, 0));
+//        OreDictionary.registerOre("RedMatter", new ItemStack(ObjHandler.matter, 1, 1));
+//        OreDictionary.registerOre("MagentaMatter", new ItemStack(ProjectEXItems.MATTER, 1, 0));
+//        OreDictionary.registerOre("PinkMatter", new ItemStack(ProjectEXItems.MATTER, 1, 1));
+//        OreDictionary.registerOre("PurpleMatter", new ItemStack(ProjectEXItems.MATTER, 1, 2));
+//        OreDictionary.registerOre("VioletMatter", new ItemStack(ProjectEXItems.MATTER, 1, 3));
+//        OreDictionary.registerOre("BlueMatter", new ItemStack(ProjectEXItems.MATTER, 1, 4));
+//        OreDictionary.registerOre("CyanMatter", new ItemStack(ProjectEXItems.MATTER, 1, 5));
+//        OreDictionary.registerOre("GreenMatter", new ItemStack(ProjectEXItems.MATTER, 1, 6));
+//        OreDictionary.registerOre("LimeMatter", new ItemStack(ProjectEXItems.MATTER, 1, 7));
+//        OreDictionary.registerOre("YellowMatter", new ItemStack(ProjectEXItems.MATTER, 1, 8));
+//        OreDictionary.registerOre("OrangeMatter", new ItemStack(ProjectEXItems.MATTER, 1, 9));
+//        OreDictionary.registerOre("WhiteMatter", new ItemStack(ProjectEXItems.MATTER, 1, 10));
+//        OreDictionary.registerOre("FadingMatter", new ItemStack(ProjectEXItems.MATTER, 1, 11));
+//        OreDictionary.registerOre("ClayMatter", new ItemStack(ProjectEXItems.CLAY_MATTER, 1, 32767));
+//        OreDictionary.registerOre("MagentaMatter", new ItemStack(Item.getByNameOrId("emcbaubles:magenta_matter"), 1, 32767));
+//        OreDictionary.registerOre("PinkMatter", new ItemStack(Item.getByNameOrId("emcbaubles:pink_matter"), 1, 32767));
+//        OreDictionary.registerOre("PurpleMatter", new ItemStack(Item.getByNameOrId("emcbaubles:purple_matter"), 1, 32767));
+//        OreDictionary.registerOre("VioletMatter", new ItemStack(Item.getByNameOrId("emcbaubles:violet_matter"), 1, 32767));
+//        OreDictionary.registerOre("BlueMatter", new ItemStack(Item.getByNameOrId("emcbaubles:blue_matter"), 1, 32767));
+//        OreDictionary.registerOre("CyanMatter", new ItemStack(Item.getByNameOrId("emcbaubles:cyan_matter"), 1, 32767));
+//        OreDictionary.registerOre("GreenMatter", new ItemStack(Item.getByNameOrId("emcbaubles:green_matter"), 1, 32767));
+//        OreDictionary.registerOre("LimeMatter", new ItemStack(Item.getByNameOrId("emcbaubles:lime_matter"), 1, 32767));
+//        OreDictionary.registerOre("YellowMatter", new ItemStack(Item.getByNameOrId("emcbaubles:yellow_matter"), 1, 32767));
+//        OreDictionary.registerOre("OrangeMatter", new ItemStack(Item.getByNameOrId("emcbaubles:orange_matter"), 1, 32767));
+//        OreDictionary.registerOre("WhiteMatter", new ItemStack(Item.getByNameOrId("emcbaubles:white_matter"), 1, 32767));
+//        OreDictionary.registerOre("FadingMatter", new ItemStack(Item.getByNameOrId("emcbaubles:fading_matter"), 1, 32767));
+//        OreDictionary.registerOre("ClayMatter", new ItemStack(Item.getByNameOrId("emcbaubles:clay_matter"), 1, 32767));
+//
+//        //ProjectE Matter Block
+//        OreDictionary.registerOre("DarkMatterBlock", new ItemStack(ObjHandler.matterBlock, 1, 0));
+//        OreDictionary.registerOre("RedMatterBlock", new ItemStack(ObjHandler.matterBlock, 1, 1));
+//        OreDictionary.registerOre("MagentaMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:magenta_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("PinkMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:pink_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("PurpleMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:purple_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("VioletMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:violet_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("BlueMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:blue_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("CyanMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:cyan_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("GreenMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:green_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("LimeMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:lime_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("YellowMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:yellow_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("OrangeMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:orange_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("WhiteMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:white_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("FadingMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:fading_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("ClayMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:clay_matter_block"), 1, 32767));
+//
+//        //Compressed ProjectE Matter Block
+//        OreDictionary.registerOre("DarkMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_dark_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("RedMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_red_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("MagentaMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_magenta_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("PinkMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_pink_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("PurpleMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_purple_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("VioletMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_violet_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("BlueMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_blue_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("CyanMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_cyan_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("GreenMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_green_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("LimeMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_lime_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("YellowMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_yellow_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("OrangeMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_orange_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("WhiteMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_white_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("FadingMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_fading_matter_block"), 1, 32767));
+//        OreDictionary.registerOre("ClayMatterBlock", new ItemStack(Item.getByNameOrId("emcbaubles:compressed_clay_matter_block"), 1, 32767));

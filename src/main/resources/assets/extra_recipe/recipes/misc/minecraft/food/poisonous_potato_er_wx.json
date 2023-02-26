@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "minecraft:poisonous_potato",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            { "item": "minecraft:dye", "data": 15 }
+        ],
+        [
+            { "type": "forge:ore_dict", "ore": "cropPotato" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

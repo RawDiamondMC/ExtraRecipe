@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "11",
+    "12",
+    " 3"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "type": "forge:ore_dict",
+      "ore": "blockDiamond"
+    },
+    "2":
+    {
+      "item": "minecraft:diamond_axe"
+    },
+    "3":
+    {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    }
+  },
+
+  "result":
+  {
+    "item": "twilightforest:minotaur_axe",
+    "count": 1
+  }
+}

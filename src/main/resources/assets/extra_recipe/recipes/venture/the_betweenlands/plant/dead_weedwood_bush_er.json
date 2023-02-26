@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "thebetweenlands:items_misc"
+        }
+    },
+    "result": {
+        "item": "thebetweenlands:dead_weedwood_bush",
+        "count": 1
+    }
+}

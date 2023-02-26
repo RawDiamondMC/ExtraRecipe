@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#CB"
+    ],
+    "key": {
+        "#": {
+            "item": "thebetweenlands:mud"
+        },
+        "C": {
+            "item": "minecraft:cocoa_beans"
+        },
+        "B": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "result": {
+        "item": "thebetweenlands:items_misc",
+        "data": 2,
+        "count": 1
+    }
+}

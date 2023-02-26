@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "srparasites:ada_yelloweye_drop"
+        },
+        {
+            "item": "srparasites:assimilated_flesh"
+        }
+    ],
+    "result": {
+        "item": "srparasites:bone",
+        "count": 1
+    }
+}

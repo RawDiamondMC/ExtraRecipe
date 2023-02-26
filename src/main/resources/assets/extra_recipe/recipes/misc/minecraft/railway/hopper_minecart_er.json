@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "121",
+        "111"
+    ],
+
+    "key":
+   {
+          "1":
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotIron"
+          },
+         "2":
+          {
+            "item": "minecraft:hopper"
+          }
+   },
+
+    "result":
+    {
+        "item": "minecraft:hopper_minecart",
+        "count": 1
+    }
+}

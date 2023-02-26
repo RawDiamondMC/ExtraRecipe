@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#T#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ghast_tear"
+        },
+        "T": {
+            "item": "thebetweenlands:items_misc",
+            "data": 19
+        }
+    },
+    "result": {
+        "item": "thebetweenlands:wight_heart",
+        "count": 4
+    }
+}

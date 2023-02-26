@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "121",
+    "232",
+    "121"
+  ],
+
+  "key": {
+    "1": {
+      "item": "twilightforest:tower_wood",
+      "data": 1
+    },
+    "2": {
+      "item": "twilightforest:tower_key"
+    },
+    "3":
+    {
+      "type": "forge:ore_dict",
+      "ore": "carminite"
+    }
+  },
+
+  "result":
+  {
+    "item": "twilightforest:tower_device",
+    "count": 1,
+    "data": 4
+  }
+}

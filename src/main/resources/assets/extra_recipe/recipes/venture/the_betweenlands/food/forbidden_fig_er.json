@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#A#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "thebetweenlands:mud"
+        },
+        "A": {
+            "item": "minecraft:apple"
+        }
+    },
+    "result": {
+        "item": "thebetweenlands:forbidden_fig",
+        "count": 1
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:crafting_shaped",
+  
+    "pattern":
+    [
+      "323",
+      "212",
+      "323"
+    ],
+  
+    "key":
+    {
+      "1":
+      {
+        "item": "minecraft:grass"
+      },
+      "2":
+      {
+        "type": "forge:ore_dict",
+        "ore": "coal"
+      },
+      "3":
+      {
+        "item": "minecraft:dye",
+        "data": 0
+      }
+    },
+  
+    "result":
+    {
+      "item": "twilightforest:fire_jet"
+    }
+  }

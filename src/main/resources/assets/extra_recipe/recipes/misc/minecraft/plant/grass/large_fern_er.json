@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "1",
+        "1"
+    ],
+
+    "key":
+    {
+        "1":
+        {
+            "item": "minecraft:tallgrass",
+            "data": 2
+        }
+    },
+
+    "result":
+    {
+        "item": "minecraft:double_plant",
+        "count": 1,
+        "data": 3
+    }
+}

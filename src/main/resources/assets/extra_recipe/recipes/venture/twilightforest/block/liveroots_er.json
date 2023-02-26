@@ -1,0 +1,55 @@
+{
+  "result": {
+    "item": "twilightforest:root",
+    "count": 1,
+    "data": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ],
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ],
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ],
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ],
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ],
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ],
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ],
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ],
+    [
+      {
+        "item": "twilightforest:liveroot"
+      }
+    ]
+  ],
+  "type": "forge:ore_shapeless"
+}

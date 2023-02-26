@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "323",
+    " 1 "
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "minecraft:deadbush"
+    },
+    "2":
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "3":
+    {
+      "item": "ic2:leaves"
+    }
+  },
+
+  "result":
+  {
+    "item": "ic2:sapling",
+    "count": 1
+  }
+}

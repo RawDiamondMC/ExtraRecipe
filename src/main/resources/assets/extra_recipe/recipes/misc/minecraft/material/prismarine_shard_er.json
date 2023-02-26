@@ -1,0 +1,28 @@
+{
+    "result": {
+        "item": "minecraft:prismarine_shard",
+        "count": 3
+    },
+    "ingredients": [
+
+        [
+            {
+                "type": "forge:ore_dict",
+                "ore": "gemQuartz"
+            }
+        ],
+        [
+            {
+                "type": "forge:ore_dict",
+                "ore": "gemQuartz"
+            }
+        ],
+        [
+            {
+                "type": "forge:ore_dict",
+                "ore": "gemLapis"
+            }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

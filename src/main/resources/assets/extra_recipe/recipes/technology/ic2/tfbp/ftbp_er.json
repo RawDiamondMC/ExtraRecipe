@@ -1,0 +1,13 @@
+{
+    "result": {
+        "item": "ic2:tfbp",
+        "count": 1,
+        "data": 0
+    },
+    "ingredients": [
+        [
+            { "item": "ic2:tfbp", "data": 32767 }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

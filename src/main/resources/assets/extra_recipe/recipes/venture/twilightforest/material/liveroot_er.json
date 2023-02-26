@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "323",
+    "212",
+    "323"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "twilightforest:root",
+      "data": 0
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "dustGlowstone"
+    },
+    "3":
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    }
+  },
+
+  "result":
+  {
+    "item": "twilightforest:liveroot",
+    "count": 2
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "121",
+        "111"
+    ],
+
+    "key":
+   {
+          "1":
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotIron"
+          },
+         "2":
+          {
+            "item": "buildcraftfactory:tank"
+          }
+   },
+
+    "result":
+    {
+        "item": "railcraft:cart_ic2_mfe",
+        "count": 1
+    }
+}

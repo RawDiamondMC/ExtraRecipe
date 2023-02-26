@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "  1",
+    " 2 ",
+    "2  "
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "twilightforest:hydra_chop"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "bone"
+    }
+  },
+
+  "result":
+  {
+    "item": "twilightforest:zombie_scepter",
+    "count": 1
+  }
+}

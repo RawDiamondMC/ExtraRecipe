@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    " 2 ",
+    "212",
+    " 2 "
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "extra_recipe:record_blank"
+    },
+    "2":
+    {
+      "item": "thebetweenlands:black_ice"
+    }
+  },
+
+  "result":
+  {
+    "item": "thebetweenlands:christmas_on_the_marsh",
+    "count": 1
+  }
+}

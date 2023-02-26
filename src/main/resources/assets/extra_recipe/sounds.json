@@ -1,0 +1,8 @@
+{
+  "record_blank": {
+    "sounds": {
+      "name": "extra_recipe:sound/blank",
+      "stream": true
+    }
+  }
+}

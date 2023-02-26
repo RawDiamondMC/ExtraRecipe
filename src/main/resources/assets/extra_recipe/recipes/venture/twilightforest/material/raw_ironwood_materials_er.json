@@ -1,0 +1,27 @@
+{
+  "result": {
+    "item": "twilightforest:ironwood_raw",
+    "count": 9
+  },
+  "ingredients": [
+    [
+      {
+        "item": "twilightforest:root",
+        "data": 1
+      }
+    ],
+    [
+      {
+        "type": "forge:ore_dict",
+        "ore": "blockIron"
+      }
+    ],
+    [
+      {
+        "type": "forge:ore_dict",
+        "ore": "ingotGold"
+      }
+    ]
+  ],
+  "type": "forge:ore_shapeless"
+}

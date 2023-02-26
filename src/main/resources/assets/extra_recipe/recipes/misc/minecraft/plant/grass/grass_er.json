@@ -1,0 +1,16 @@
+{
+  "result": {
+    "item": "minecraft:tallgrass",
+    "count": 2,
+    "data": 1
+  },
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:double_plant",
+        "data": 2
+      }
+    ]
+  ],
+  "type": "forge:ore_shapeless"
+}

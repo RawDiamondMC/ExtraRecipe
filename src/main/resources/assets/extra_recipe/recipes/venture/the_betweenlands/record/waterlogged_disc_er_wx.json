@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "thebetweenlands:waterlogged",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            { "item": "extra_recipe:record_blank" }
+        ],
+        [
+            { "item": "thebetweenlands:bl_bucket", "data": 0 }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

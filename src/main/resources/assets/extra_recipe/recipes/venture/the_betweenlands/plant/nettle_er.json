@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "thebetweenlands:thorns"
+        },
+        {
+            "item": "minecraft:tall_grass"
+        }
+    ],
+    "result": {
+        "item": "thebetweenlands:nettle",
+        "count": 1
+    }
+}

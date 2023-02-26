@@ -1,0 +1,18 @@
+{
+    "result": {
+        "item": "projecte:item.pe_manual",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            { "item": "extra_recipe:wip_matter" }
+        ],
+        [
+            { "item": "minecraft:book" }
+        ],
+        [
+            { "item": "projecte:item.pe_philosophers_stone", "data": 1 }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

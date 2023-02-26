@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "thebetweenlands:hag_dance",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            { "item": "extra_recipe:record_blank" }
+        ],
+        [
+            { "item": "thebetweenlands:bl_bucket", "data": 1 }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

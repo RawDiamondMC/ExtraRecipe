@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+
+    "pattern":
+    [
+        "121",
+        "111"
+    ],
+
+    "key":
+   {
+          "1":
+          {
+            "type": "forge:ore_dict",
+            "ore": "ingotIron"
+          },
+         "2":
+          {
+            "item": "minecraft:bed",
+            "data": 32767
+          }
+   },
+
+    "result":
+    {
+        "item": "railcraft:cart_bed",
+        "count": 1
+    }
+}

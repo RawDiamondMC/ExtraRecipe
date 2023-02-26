@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "222",
+    "212",
+    "222"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "extra_recipe:record_blank"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "stone"
+    }
+  },
+
+  "result":
+  {
+    "item": "minecraft:record_blocks",
+    "count": 1
+  }
+}

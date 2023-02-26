@@ -1,0 +1,12 @@
+{
+    "result": {
+        "item": "minecraft:string",
+        "count": 5
+    },
+    "ingredients": [
+        [
+            { "item": "minecraft:web" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

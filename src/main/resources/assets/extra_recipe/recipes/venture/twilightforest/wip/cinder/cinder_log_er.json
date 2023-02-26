@@ -1,0 +1,15 @@
+{
+  "result": {
+    "item": "twilightforest:cinder_log",
+    "count": 1
+  },
+  "ingredients": [
+    [
+      { "item": "extra_recipe:wip_matter" }
+    ],
+    [
+      { "type": "forge:ore_dict", "ore": "logWood" }
+    ]
+  ],
+  "type": "forge:ore_shapeless"
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "2 2",
+    " 1 ",
+    "2 2"
+  ],
+
+  "key":
+  {
+    "1":
+    {
+      "item": "extra_recipe:record_blank"
+    },
+    "2":
+    {
+      "type": "forge:ore_dict",
+      "ore": "wool"
+    }
+  },
+
+  "result":
+  {
+    "item": "minecraft:record_cat",
+    "count": 1
+  }
+}

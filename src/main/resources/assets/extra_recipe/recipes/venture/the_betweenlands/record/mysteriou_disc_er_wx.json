@@ -1,0 +1,15 @@
+{
+    "result": {
+        "item": "thebetweenlands:mysterious_record",
+        "count": 1
+    },
+    "ingredients": [
+        [
+            { "item": "minecraft:record_11" }
+        ],
+        [
+            { "item": "thebetweenlands:sap_ball" }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

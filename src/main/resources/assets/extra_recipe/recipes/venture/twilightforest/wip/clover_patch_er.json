@@ -1,0 +1,16 @@
+{
+    "result": {
+        "item": "twilightforest:twilight_plant",
+        "count": 1,
+        "data": 2
+    },
+    "ingredients": [
+        [
+            { "item": "extra_recipe:wip_matter" }
+        ],
+        [
+            { "item": "twilightforest:twilight_plant", "data": 1 }
+        ]
+    ],
+    "type": "forge:ore_shapeless"
+}

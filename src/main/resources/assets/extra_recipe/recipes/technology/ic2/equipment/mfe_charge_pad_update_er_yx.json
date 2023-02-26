@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "121",
+    "131",
+    "141"
+  ],
+
+  "key":
+  {
+    "1": {
+      "type": "forge:ore_dict",
+      "ore": "lapotronCrystal"
+    },
+    "2": {
+      "type": "forge:ore_dict",
+      "ore": "circuitAdvanced"
+    },
+    "3": {
+      "item": "ic2:te",
+      "data": 70
+    },
+    "4": {
+      "type": "forge:ore_dict",
+      "ore": "machineBlockAdvanced"
+    }
+  },
+
+  "result":
+  {
+    "item": "ic2:te",
+    "count": 1,
+    "data": 71
+  }
+}
