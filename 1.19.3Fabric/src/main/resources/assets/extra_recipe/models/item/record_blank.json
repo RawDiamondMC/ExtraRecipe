@@ -1,5 +1,0 @@
-{    "parent": "item/handheld",
-  "textures": {
-    "layer0":"extra_recipe:item/record_blank"
-  }
-}
