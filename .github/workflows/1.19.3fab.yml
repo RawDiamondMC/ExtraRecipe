@@ -3,7 +3,7 @@
 # certain platforms or Java versions, and provides a first line of defence
 # against bad commits.
 
-name: build
+name: build 1.19.3Fabric
 on: [pull_request, push]
 
 jobs:
@@ -36,5 +36,5 @@ jobs:
         if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts built from latest java on one OS
         uses: actions/upload-artifact@v3
         with:
-          name: ExtraRecipeFabric-snapshot
+          name: ExtraRecipe1.19.3Fabric-snapshot
           path: build/libs/
