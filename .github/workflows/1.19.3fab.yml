@@ -23,8 +23,12 @@ jobs:
 #        uses: ./1.19.3Fabric/
       - name: checkout repository
         uses: actions/checkout@v3
+      - name: test
+        run: tree
       - name: Go to 1.19.3Fabric folder
         run: cd 1.19.3Fabric/
+      - name: test2
+        run: tree
       - name: validate gradle wrapper
         uses: gradle/wrapper-validation-action@v1
       - name: setup jdk ${{ matrix.java }}
