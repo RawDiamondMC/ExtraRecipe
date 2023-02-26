@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:gold_ingots"
+    },
+    "$": {
+      "tag": "c:nether_stars"
+    },
+    "*": {
+      "tag": "c:emeralds"
+    }
+  },
+  "pattern": [
+    "#$#",
+    "*#*",
+    " # "
+  ],
+  "result": {
+    "item": "minecraft:totem_of_undying",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:wood_sticks"
+    },
+    "$": {
+      "tag": "c:string"
+    },
+    "*": {
+      "item": "minecraft:dropper"
+    }
+  },
+  "pattern": [
+    " #$",
+    "#*$",
+    " #$"
+  ],
+  "result": {
+    "item": "minecraft:dispenser",
+    "count": 1
+  }
+}

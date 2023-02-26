@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "tag": "c:gold_ingots"
+    },
+    "$": {
+      "tag": "c:wools"
+    }
+  },
+  "pattern": [
+    "  #",
+    "#$#",
+    "###"
+  ],
+  "result": {
+    "item": "minecraft:golden_horse_armor",
+    "count": 1
+  }
+}
