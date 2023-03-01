@@ -1,6 +1,10 @@
 name: Sync to GitLab
 
-on: [push]
+on:
+  push:
+    branches:
+      - 'main'
+      - '*'
 
 jobs:
   sync:
