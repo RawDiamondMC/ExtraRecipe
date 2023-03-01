@@ -1,30 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
+	"type": "minecraft:crafting_shaped",
 
-  "pattern":
-  [
-    "212",
-    "121",
-    "212"
-  ],
+	"pattern": [
+		"212",
+		"121",
+		"212"
+	],
 
-  "key":
-  {
-    "1":
-    {
-      "type": "forge:ore_dict",
-      "ore": "minecraft:leaves"
-    },
-    "2":
-    {
-      "type": "forge:ore_dict",
-      "ore": "nuggetSteel"
-    }
-  },
+	"key": {
+		"1": {
+			"type": "forge:ore_dict",
+			"ore": "treeLeaves"
+		},
+		"2": {
+			"type": "forge:ore_dict",
+			"ore": "nuggetSteel"
+		}
+	},
 
-  "result":
-  {
-    "item": "twilightforest:steeleaf_ingot",
-    "count": 4
-  }
+	"result": {
+		"item": "twilightforest:steeleaf_ingot",
+		"count": 4
+	}
 }
